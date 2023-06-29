@@ -48,7 +48,7 @@ choices = [fours, fivesLess, sixesLess, sevensLess]
 
 # Generate n number of seeds and print
 seedCounter = 0
-while seedCounter < 1:
+while seedCounter < 1000:
     seed = []
     while len(seed) < 12:
         wordLengthChoice = random.choice(choices)
